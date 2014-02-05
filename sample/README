@@ -1,17 +1,5 @@
-This folder contains demo sample for Android
+Android application that takes voice input or text input from camera in English and translates the same to Hindi.
 
-!!! IMPORTANT !!!
+Uses Google spreadsheet API for translation with a ruby server
 
-== Access credentials == 
-
-Please modify src/abbyy/ocrsdk/android/AsyncProcessTask.java before running the program.
-
-You need to provide your credentials to connect to Cloud OCR SDK. 
-See doInBackground() method.
-
-== Recognition language ==
-
-The sample is pre-configured to recognize English texts. If you
-recognize text in other language, you need to modify 'language' variable.
-See src/abbyy/ocrsdk/android/AsyncProcessTask.java
-
+Uses Google's servers to generate hindi speech
